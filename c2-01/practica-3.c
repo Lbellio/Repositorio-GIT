@@ -1,3 +1,7 @@
+/*Desarrollar un programa donde se toque un pin táctil LUEGO de
+mostrar un mensaje por serial. La idea es que se toque lo más rápido
+posible, por lo cual se debe imprimir el tiempo transcurrido.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "freertos/FreeRTOS.h"

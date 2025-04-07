@@ -73,7 +73,7 @@ void detect_touch_sequence(){
 //Funcion para validar la contraseña. Tambien si es necesario cambiarla.
 // Corregimos la función con nombre y comparación correcta
 bool validate_pattern(){
-    const char password[max_sequence+1]= "SSSLLLSSS";
+    const char password[max_sequence+1]= "LLLSSSLLL";
     bool valid = strncmp(input_sequence, password, max_sequence)==0;
 
     if (valid){
